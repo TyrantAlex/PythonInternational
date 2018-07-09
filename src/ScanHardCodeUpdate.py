@@ -48,6 +48,7 @@ def openFileStream(moduleDir):
     # stringPath = generatedStringDir + "/string.xml"    #by:hongshen
     stringPath = translatePath + "/string.xml"
     generatedStringFileOpen = codecs.open(stringPath, 'a', 'utf-8')
+
 '''*****************************************************************2018.05.28***********************************************************************'''
 def traverseFile(dir):
     '''
